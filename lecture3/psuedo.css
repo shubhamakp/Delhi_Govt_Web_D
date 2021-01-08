@@ -1,0 +1,32 @@
+p::first-letter{
+    background: red;
+    color: white;
+    font-size: 50px;
+}
+
+p::first-line{
+    background-color: blue;
+}
+
+p::selection{
+    color: white;
+    background-color: indigo;
+}
+
+a:link{
+    color: skyblue;
+}
+
+a:visited{
+    color: slategray;
+}
+
+a:hover{
+    background-color : black;
+    color: white;
+}
+
+a:active{
+    background-color: yellow;
+    color: purple;
+}

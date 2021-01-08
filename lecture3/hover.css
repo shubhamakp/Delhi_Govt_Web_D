@@ -1,0 +1,12 @@
+.square{
+    height: 50px;
+    width: 50px;
+    background-color: purple;
+}
+
+.square:hover{
+    height: 50px;
+    width: 80px;
+    background-color: red;
+    border-radius: 50%;
+}
