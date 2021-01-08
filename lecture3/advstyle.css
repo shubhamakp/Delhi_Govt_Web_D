@@ -1,0 +1,26 @@
+/* adjacent sibling selector  */
+h4 + ul{
+    /* color: red; */
+}
+
+/* attribute selector */
+a[href="google.com"]{
+    color: sienna;
+}
+
+/* multiple selector */
+h1, span , p{
+    color: purple;
+}
+
+/* decendant selector */
+div p a {
+    background-color: purple;
+    color: white;
+}
+
+/* all those li having class = "one" */
+
+li.One{
+    color:yellowgreen
+}

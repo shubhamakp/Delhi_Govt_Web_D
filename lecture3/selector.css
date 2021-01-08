@@ -18,5 +18,14 @@
     color: red;
 }
 .Pink{
-    color: pink;
+    /* custom coloring */
+    /* color: royalblue; */
+    
+    /* hex-code coloring */
+    /* color: #4d6b53; */
+
+    /* rgb coloring */
+    color: rgb(6, 99, 23);
 }
+
+
