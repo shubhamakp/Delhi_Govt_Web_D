@@ -1,6 +1,6 @@
 /* adjacent sibling selector  */
 h4 + ul{
-    /* color: red; */
+    color: red;
 }
 
 /* attribute selector */
