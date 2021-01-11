@@ -11,16 +11,22 @@
     margin : 20px 30px ;
 
 
-    /* border-radius: 2px;
+    /* border-width: 2px;
     border-style: dotted;
     border-color: red; */
 
     /* shorthand rule for above border property  */
-    border: 2px dotted red;
+    border: 20px solid red;
 
  /* shorthand property same as margin */
     padding: 20px 30px 40px 60px;
-
-
     width: 200px;
+}
+
+h1{
+    text-decoration: line-through overline solid red;
+}
+
+a{
+    text-decoration: none;
 }
