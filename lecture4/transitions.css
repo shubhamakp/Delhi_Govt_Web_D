@@ -1,0 +1,38 @@
+.square{
+    height: 50px;
+    width: 50px;
+    background-color: purple;
+    transition: width 2s,height 4s;
+}
+
+.square:hover{
+    /* background-color: red; */
+    width: 100px;
+    height: 100px;
+}
+
+
+div{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+    background-color: red;
+    transition : width 2s;
+}
+
+div:hover{
+    width: 300px;
+}
+
+#div1{
+    transition-timing-function: ease;
+}
+#div2{
+    transition-timing-function: linear;
+}
+#div3{
+    transition-timing-function: ease-in;
+}
+#div4{
+    transition-timing-function: ease-out;
+}
