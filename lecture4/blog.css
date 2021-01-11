@@ -1,0 +1,30 @@
+body{
+    border: 20px solid rgb(153, 143, 143);
+    padding : 20px;
+    margin :20px auto;
+    width: 80%;
+}
+
+.post{
+    margin-bottom: 30px;
+}
+
+.date{
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    color: rgb(105, 176, 204);
+}
+
+.qoute{
+    border-left: 5px solid #bdc3c7;
+    padding-left: 5px;
+}
+p{
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+    font-family: 'Yeon Sung', cursive;
+    color: #2c3e50;
+}

@@ -24,7 +24,13 @@
 }
 
 h1{
-    text-decoration: line-through overline solid red;
+    /* text-decoration: line-through; */
+    /* text-decoration: solid; */
+    text-decoration: underline overline solid red;
+}
+
+h1:hover{
+    text-decoration: underline overline dotted purple;
 }
 
 a{
