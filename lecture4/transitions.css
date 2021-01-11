@@ -17,11 +17,13 @@ div{
     height: 50px;
     margin-bottom: 5px;
     background-color: red;
-    transition : width 2s;
+    transition : all 2s;
+    
 }
 
 div:hover{
     width: 300px;
+    transform: skewX(40deg);
 }
 
 #div1{
@@ -36,3 +38,4 @@ div:hover{
 #div4{
     transition-timing-function: ease-out;
 }
+
