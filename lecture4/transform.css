@@ -11,7 +11,7 @@
     /* transform: translate(30px,40px); */
     /* transform: skew(-40deg); */
 
-    /* transform: rotate(330deg); */
+    transform: rotate(330deg);
 
-    transform: scale(3);
+    /* transform: scale(3); */
 }

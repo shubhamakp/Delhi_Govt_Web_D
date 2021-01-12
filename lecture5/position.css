@@ -1,0 +1,25 @@
+.one{
+    position: relative;
+    border: 2px solid green;
+    left: 40px;
+    width: 400px;
+    height: 200px;
+    margin-top: 2000px;
+}
+
+.two{
+    position: absolute;
+    top: 80px;
+    right: 0;
+    height: 100px;
+    width: 200px;
+    border: 2px solid red;
+}
+
+.fixed{
+    position: fixed;
+    width: 100px;
+    top: 0;
+    right: 0;
+    border: 2px solid blue;
+}
