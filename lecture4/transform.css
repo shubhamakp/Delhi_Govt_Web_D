@@ -7,6 +7,13 @@
     margin-left: 100px;
 }
 
+.div{
+    height: 50px;
+    width: 50px;
+    background-color:tomato;
+    transform: skew(40deg);
+}
+
 .trans:hover{
     /* transform: translate(30px,40px); */
     /* transform: skew(-40deg); */
