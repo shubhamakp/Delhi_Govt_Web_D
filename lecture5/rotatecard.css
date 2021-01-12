@@ -9,7 +9,7 @@ div{
 
 .side-a,.side-b{
     position: absolute;
-    backface-visibility: hidden;
+    backface-visibility:hidden;
 }
 
 .side-b{
@@ -28,7 +28,7 @@ div{
 
 .wrap{
     transition: all 2s;
-    transform-style: preserve-3d;
+    transform-style:preserve-3d;
 }
 .wrap:hover{
     transform: rotateY(180deg);

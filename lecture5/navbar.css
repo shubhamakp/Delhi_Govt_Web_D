@@ -1,0 +1,34 @@
+ul{
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    width: 100%;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+    border-right: 1px solid blue;
+    color: white;
+}
+
+li a:hover{
+    background-color: blue;
+}
+
+p{
+    position: absolute;
+    top: 50px;
+}
+
+#signup{
+    float: right;
+}
