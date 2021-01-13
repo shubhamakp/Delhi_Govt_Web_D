@@ -40,3 +40,28 @@
         transform: translateX(-1400px);
     }
 }
+
+.car{
+    width: 400px;
+    position: absolute;
+    left :30%;
+    bottom: 80px;
+    z-index: 2;
+}
+
+.car img{
+    width: 100%;
+    animation: car 1s linear infinite;
+}
+
+@keyframes car{
+    0%{
+        transform: translateY(-3px);
+    }
+    50%{
+        transform: translateY(3px);
+    }
+    100%{
+        transform: translateY(-3px);
+    }
+}
