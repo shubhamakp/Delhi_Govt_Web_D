@@ -1,0 +1,62 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+/* nav is a flex-container here */
+nav{
+    display: flex;
+    min-height: 50px;
+    background-color: rgb(31, 29, 29);
+    /* to provide even space */
+    justify-content: space-between;
+    /* to align items vertically in center */
+    align-items: center;
+    font-size: 20px;
+}
+
+/* ul is also acting as a flex  */
+ul{
+    list-style: none;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+}
+
+@media (max-width : 680px){
+    h1{
+        color: orange;
+        font-size: 60px;
+    }
+
+    /* to align as a stack */
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* to align ul elements as stack */
+    ul{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width : 500px){
+    h1{
+        color: green;
+        font-size: 30px;
+    }
+}
