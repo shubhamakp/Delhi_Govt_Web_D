@@ -1,0 +1,41 @@
+.flex-container{
+    display: flex;
+    height: 600px;
+    background-color: cadetblue;
+
+
+    flex-direction: row;
+    
+    /* 1. flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+
+    /* 2. flex wrap  */
+    /* flex-wrap: nowrap; */
+    flex-wrap: wrap;
+    /* flex-wrap :wrap-reverse; */
+
+    /* 3. justify content */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content:space-between; */
+
+    /* 4.Align items  */
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+    /* align-items: stretch; */
+
+    /* 5. Align content  */
+    /* align-content: space-around; */
+    align-content: space-between;
+}
+
+.div{
+    background-color: darkblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    color: white;
+    font-size: 30px;
+}

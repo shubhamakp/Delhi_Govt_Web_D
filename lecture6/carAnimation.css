@@ -56,13 +56,13 @@
 
 @keyframes car{
     0%{
-        transform: translateY(-3px);
+        transform: translateY(-1px);
     }
     50%{
-        transform: translateY(3px);
+        transform: translateY(1px);
     }
     100%{
-        transform: translateY(-3px);
+        transform: translateY(-1px);
     }
 }
 
@@ -76,7 +76,7 @@
 .wheel img{
     width: 65px;
     height: 65px;
-    animation: wheel 0.3s linear infinite;
+    animation: wheel .3s linear infinite;
 }
 
 .back-wheel{
