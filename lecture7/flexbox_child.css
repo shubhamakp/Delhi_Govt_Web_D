@@ -1,0 +1,28 @@
+.flex-container{
+    display: flex;
+    background-color: turquoise;
+}
+
+#div1,#div2,#div3,#div4{
+    background-color: rgb(24, 100, 175);
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    font-size: 30px;
+}
+
+#div1{
+    /* order: 4; */
+    flex-grow: 2;
+}
+#div2{
+    flex-grow: 3;
+    /* order: 7; */
+}
+#div3{
+    flex-grow: 4;
+}
+#div4{
+    flex-grow: 5;
+}
