@@ -15,8 +15,9 @@ if(x%2==0){ //condition 1 checked
 // console.log(q);
 
 
+// Another if else exmaple code 
 
-var marks = 39;
+var marks = 99;
 
 if(marks >= 80){
     console.log("A grade");
@@ -26,5 +27,11 @@ if(marks >= 80){
     console.log("C grade");
 }else{
     console.log("F grade");
+}
+
+// Loops in Javascript
+
+for(var i = 1 ; i <= 10 ; i++ ){
+    console.log("hello  " + i);
 }
 
