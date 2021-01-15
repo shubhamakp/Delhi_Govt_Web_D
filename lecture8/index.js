@@ -82,23 +82,23 @@ if (marks >= 80) {
 
 // Another method 
 
-var number = 1;
-var isPrime = true;
+// var number = 1;
+// var isPrime = true;
 
-if (number == 1) {
-    console.log(number + " not prime");
-} else {
-    for (var i = 2; i < number; i++) {
-        if (number % i == 0) {
-            isPrime = false;
-            break;
-        }
-    }
+// if (number == 1) {
+//     console.log(number + " not prime");
+// } else {
+//     for (var i = 2; i < number; i++) {
+//         if (number % i == 0) {
+//             isPrime = false;
+//             break;
+//         }
+//     }
 
-    if (isPrime == true) {
-        console.log(number + " is prime");
-    }
-    else {
-        console.log(number + " is not prime");
-    }
-}
+//     if (isPrime == true) {
+//         console.log(number + " is prime");
+//     }
+//     else {
+//         console.log(number + " is not prime");
+//     }
+// }
