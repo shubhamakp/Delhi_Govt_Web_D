@@ -31,7 +31,26 @@ if(marks >= 80){
 
 // Loops in Javascript
 
-for(var i = 1 ; i <= 10 ; i++ ){
-    console.log("hello  " + i);
-}
 
+// for loop 
+// for(var i = 1 ; i <= 10 ; i++ ){
+//     console.log("hello  " + i);
+// }
+
+// while loop
+
+// var k = 1;
+// while(k<=10){
+//     console.log("hello " + k);
+//     // update 
+//     k++;
+// }
+
+
+//  do while loop
+
+var q = 9;
+do{
+    console.log("hello everyone "+q);
+    q++;
+}while(q<=10);
