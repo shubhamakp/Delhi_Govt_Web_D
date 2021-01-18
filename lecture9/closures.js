@@ -1,19 +1,36 @@
-function firstFunc() {
+// function firstFunc() {
 
 
-    console.log("hello from first function");
-    let msg = " Shubham";
-    console.log("hello " + msg );
+//     console.log("hello from first function");
+//     let msg = " Shubham";
+//     console.log("hello " + msg );
 
-    // second funcction inside
-    function secFunc(){
-        console.log("hello from second function" + msg);
+//     // second function inside
+//     function secFunc(){
+//         console.log("hello from second function" + msg);
+//     }
+
+//     return secFunc;
+// }
+
+
+// var funcCall = firstFunc();  // first function called and executed
+
+// funcCall();
+
+
+
+// Another Closure example
+
+function makeAdder(x){
+
+    return function(y){
+        console.log(x+y);
     }
-
-    return secFunc;
 }
 
+var add5 = makeAdder(5);
+var add10 = makeAdder(10);
 
-var funcCall = firstFunc();  // first function called and executed
-
-funcCall();
+add5(2);
+add10(3)
