@@ -60,4 +60,4 @@ console.log(example.substr(4,11));
 // toUpperCase & toLowerCase
 
 console.log(example.toUpperCase());
-console.log(example.toLowerCase())
+console.log(example.toLowerCase());
