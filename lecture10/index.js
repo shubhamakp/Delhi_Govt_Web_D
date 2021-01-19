@@ -30,9 +30,14 @@ let p = {
 let q = Object.create(p);  // it will use p as its prototype/blue print.
 q.b = 15;
 
-// console.log(p);
-console.log( " p's a :" + p.a)
-// console.log(q);
-console.log("q's b :" + q.b)
-console.log("q's a : " +q.a)
 
+let r = Object.create(q);
+
+r.c = 20;
+console.log(p);
+// console.log( " p's a :" + p.a)
+console.log(q);
+// console.log("q's b :" + q.b)
+// console.log("q's a : " +q.a)
+console.log(r);
+console.log(r.a)
