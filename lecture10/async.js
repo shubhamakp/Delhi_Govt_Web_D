@@ -11,6 +11,7 @@ setInterval(()=>{
     console.log("it will print after every 1 sec " + count);
 } , 1000)
 
+
 var count = 0;
 let intervalId  = setInterval(()=>{
     count++;
