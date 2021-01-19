@@ -6,7 +6,7 @@ var person = {
     lastName : "Kumar",
     Age : 46,
     height : 5.2,
-    function(){
+    func : function(){
         console.log("very high speed")
     }
 }
