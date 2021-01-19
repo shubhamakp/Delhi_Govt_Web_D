@@ -12,6 +12,7 @@ var person = {
         food : "Paneer"
     }
 }
+
 // console.log(person)
 
 person.city = "Delhi";
