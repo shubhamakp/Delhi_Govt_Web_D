@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background-color: antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    text-align: center;
+    color: rgb(55,55,211);
+}
+
+.inputDiv{
+    display: flex;
+    justify-content: center;
+}
+
+button , input{
+    margin: 2vh;
+    padding: 2vh;
+}
+
+.taskListContainer{
+    display: flex;
+    justify-content: center;
+}
+
+#taskList{
+    list-style: none;
+    padding :0;
+}
+
+.liItem{
+    background-color :skyblue;
+    color: darkblue;
+    padding: 0.5vw;
+    margin: 0.5vw;
+    border-radius: 20px;
+    min-width: 20vw;
+}
+
+.upBtn{
+    background-color: rgb(54,94,121);
+}
+.downBtn{
+    background-color: orange;
+}
+.crossBtn{
+    background-color: rgb(255,94,121);
+}
+
+.upBtn,.downBtn,.crossBtn{
+    border:0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
