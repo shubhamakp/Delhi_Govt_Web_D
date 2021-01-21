@@ -13,5 +13,5 @@ div{
 }
 
 .newPara{
-    background-color: red;
+    border: 2px red dotted;
 }
