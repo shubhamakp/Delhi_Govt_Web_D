@@ -2,7 +2,7 @@
 var heading = document.getElementById("heading");
 
 heading.onclick = function(){
-    heading.innerText = "As i said"
+    heading.innerText = "As i said";
 }
 
 
@@ -19,4 +19,24 @@ btn.onclick = function(){
 var input = document.getElementById("fname");
 input.onchange = function(){
     input.value = input.value.toUpperCase();
+}
+
+
+// onmouseover and onmouseout event
+
+var div = document.getElementById("div");
+div.onmouseover = function(){
+    div.innerText = "ThankYou";
+}
+
+div.onmouseout = function(){
+    div.innerText = "Again you can Mouse Over Me";
+}
+
+div.onmousedown = function(){
+    div.style.backgroundColor = "red";
+}
+
+div.onmouseup = function (){
+    div.style.backgroundColor = "purple";
 }
