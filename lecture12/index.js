@@ -40,3 +40,19 @@ div.onmousedown = function(){
 div.onmouseup = function (){
     div.style.backgroundColor = "purple";
 }
+
+
+// onkeyup & onkeydown & onkeypress Event
+
+input.onkeyup = function (){
+    input.value = input.value.toUpperCase();
+}
+
+
+input.onkeydown = function (){
+    alert("key has been pressed");
+}
+
+input.onkeypress = function (){
+    alert("key has been pressed");
+}
